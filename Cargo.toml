@@ -9,3 +9,4 @@ build = "build.rs"
 
 [dependencies]
 libc = '*'
+vm-memory = { version = "0.3.0", features = ["backend-mmap"] }
